@@ -117,7 +117,7 @@ export function Navbar() {
                   onClick={(e) => submitSearch(e as any)}
                   className="w-full text-sm text-brand-500 py-2 hover:bg-slate-50 dark:hover:bg-slate-800 border-t border-slate-200 dark:border-slate-800"
                 >
-                  See all results for "{search}"
+                  See all results for &ldquo;{search}&rdquo;
                 </button>
               </div>
             )}
